@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+
+  background-color: #526D82;
+
+  color: white;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+h1 {
+  text-align: center;
+}
