@@ -1,0 +1,38 @@
+#myPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+
+  height: auto;
+  width: 350px;
+}
+
+h1{
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+#name{
+  font-size: 7vw;
+}
+
+#title{
+  font-size: 3vw;
+}
+
+#description{
+  background-color: #526D82;
+  border-style: solid;
+  border-color: black;
+
+  text-align: center;
+  color: white;
+
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
