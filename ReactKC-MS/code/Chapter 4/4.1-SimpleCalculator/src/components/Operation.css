@@ -1,0 +1,14 @@
+.operation-container{
+  display: flex;
+  justify-content: center;
+}
+
+.operation{
+  margin: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+input{
+  background-color: #ECF87F;
+}
