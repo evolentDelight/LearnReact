@@ -1,9 +1,11 @@
 .container{
-  background-color: #3D550C;
-  width: 75%;
+  background-color: black;
+  width: 85%;
   margin: auto;
 
   color: white;
 
   padding: 5%;
+
+  border-radius: 15px;
 }
