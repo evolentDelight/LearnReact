@@ -15,6 +15,9 @@
 
 .result{
   width: 185px;
+
+  white-space: nowrap;
+  text-overflow: clip;
 }
 
 button{
@@ -32,8 +35,7 @@ input {
 
   text-align: center;
   color: white;
-  min-width: 175px;
-  width: 20vw;
+  width: 15vw;
 }
 
 input:focus {
