@@ -60,5 +60,3 @@ export default function Division(){
     </div>
   )
 }
-
-//Use RegExp or regex for exponential

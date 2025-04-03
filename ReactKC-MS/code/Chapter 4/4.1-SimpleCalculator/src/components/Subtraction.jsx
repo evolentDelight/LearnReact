@@ -60,5 +60,3 @@ export default function Subtraction(){
     </div>
   )
 }
-
-//Use RegExp or regex for exponential

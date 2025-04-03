@@ -60,5 +60,3 @@ export default function Multiplication(){
     </div>
   )
 }
-
-//Use RegExp or regex for exponential

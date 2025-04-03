@@ -60,5 +60,3 @@ export default function Addition(){
     </div>
   )
 }
-
-//Use RegExp or regex for exponential
