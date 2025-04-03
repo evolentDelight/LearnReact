@@ -1,6 +1,8 @@
 .operation-container{
   display: flex;
   justify-content: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .operation{
@@ -11,4 +13,5 @@
 
 input{
   background-color: #ECF87F;
+  text-align: center;
 }
