@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./Operation.css"
 
-export default function Addition(){
+export default function Multiplication(){
   const [leftNumber, setLeftNumber] = useState("");
   const [rightNumber, setRightNumber] = useState("");
 
@@ -40,7 +40,7 @@ export default function Addition(){
         />
       </div>
 
-      <div className="operation">+</div>
+      <div className="operation">×</div>
 
       <div className="input-container">
         <button onClick={handleRightNumberSignConversion}>+/-</button>
@@ -55,7 +55,7 @@ export default function Addition(){
 
       <div className="operation">=</div>
 
-      <div className="result">{Number(leftNumber) + Number(rightNumber)}</div>
+      <div className="result">{Number(leftNumber) * Number(rightNumber)}</div>
 
     </div>
   )
