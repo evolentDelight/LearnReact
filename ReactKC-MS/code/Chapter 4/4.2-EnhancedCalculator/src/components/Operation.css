@@ -13,6 +13,12 @@
   flex-direction: column;
 }
 
+.operation{
+  align-self: end;
+  padding-top: 0.80em;
+  padding-bottom: 0.80em;
+}
+
 button{
   border-radius: 100px;
 }
