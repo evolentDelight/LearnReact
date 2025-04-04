@@ -1,0 +1,46 @@
+.operation-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 5%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.input-container{
+  display: flex;
+}
+
+.result{
+  width: 185px;
+
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
+button{
+  border-radius: 100px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: grey;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+
+  text-align: center;
+  color: white;
+  width: 15vw;
+}
+
+input:focus {
+  background-color: lightslategrey;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
