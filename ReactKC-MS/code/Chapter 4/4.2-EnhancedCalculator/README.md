@@ -1,6 +1,6 @@
 # Activity 4.2 - Enhanced Calculator
 
-## Pictures
+## Results Image
 ![Enhanced Calculator Image](./results/4.2-Enhanced-Calculator.png)
 ![Enhanced Calculator Image - Selected](./results/4.2-Enhanced-Calculator-Selected.png)
 
