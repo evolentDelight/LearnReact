@@ -1,0 +1,43 @@
+.list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 5vh;
+}
+
+button {
+  width: 7.5rem;
+  padding: 1em 0 1em 0;
+
+  margin: 1rem;
+
+  background-color:dodgerblue;
+
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+
+  color: white;
+}
+
+button:hover{
+  background-color: rgba(118, 187, 255, 0.762)
+}
+
+p{
+  background-color:slategrey;
+  color: white;
+
+  width: 60vw;
+
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+
+  text-align: center;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

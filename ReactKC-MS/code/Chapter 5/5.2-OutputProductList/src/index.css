@@ -8,7 +8,19 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background-color:dimgray;
+}
+
+#root{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color:dimgray;
 }
