@@ -3,7 +3,7 @@ import "./App.css";
 import Form from "./components/Form";
 
 function validateEmail(email) {
-  return /^\S+@\S+.\S/.test(email);
+  return /^\S+@\S+\.\S/.test(email);
 }
 
 function validatePassword(password) {
