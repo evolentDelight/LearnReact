@@ -1,8 +1,7 @@
 import classes from "./Form.module.css";
 
-export default function Form({ handleInput, isValidEmail, isValidPassword }) {
-  let emailInputClass = classes.general;
-  let passwordInputClass = classes.general;
+export default function Form({}) {
+  let emailInputClass, passwordInputClass;
   return (
     <form className={classes.form}>
       <label htmlFor="emailInput">Your Email:</label>

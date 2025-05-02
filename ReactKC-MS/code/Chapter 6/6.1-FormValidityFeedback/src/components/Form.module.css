@@ -26,3 +26,11 @@
 
   margin-top: 2em;
 }
+
+.inputValid {
+  background-color: white;
+}
+
+.inputInvalid {
+  background-color: indianred;
+}
