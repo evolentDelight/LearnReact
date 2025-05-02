@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#root {
+  background-color: lightblue;
+
+  color: black;
+
+  width: 65vw;
+  height: 25vh;
+  min-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+
+  margin-top: 5em;
+}
