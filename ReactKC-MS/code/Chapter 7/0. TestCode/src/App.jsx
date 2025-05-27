@@ -12,7 +12,7 @@ function App() {
   };
 
   const handleCounter = () => {
-    counterRef.current += 1;
+    counterRef.current += 1; //Displays only after a render, but still counts each button click
     setTriggerRender((prevState) => prevState + 1);
   };
 
